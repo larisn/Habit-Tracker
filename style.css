@@ -29,6 +29,8 @@
     justify-content: space-between; /* Pega toda a largura do header e colocoar espaço entre os elementos */
 
     padding: 48px; /* descolar os elementos da borda */
+    position: fixed;
+    width: 100%;
   }
 
 
@@ -54,6 +56,13 @@
 
 
 
+  #form-habits {
+    display: flex;
+    padding: 182px 48px 48px; 
+    /* o 182px é relativo à position: fixed; do header e sua width, esse valor foi colocado para que os elementos não fiquem se sobrepondo. */
+
+    width: fit-content; /* encaixar o conteúdo na largura */
+  }
 
   form {
     display: flex;
@@ -137,4 +146,16 @@
   .especial {
     display: flex;
     flex-direction: row;
+  }
+
+
+
+/* Aplicando a responsividade no botão */
+
+  /* essa regra diz que se o dispositivo tiver de 0 a no máximo 570px de largura, a declaração será aplicada */
+
+  @media (max-width: 570px) {
+    button div {
+      display: none; /* o texto do botão some */
+    }
   }

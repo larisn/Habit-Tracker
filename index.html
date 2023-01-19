@@ -13,189 +13,31 @@
       <img src="assets/logo.svg" alt="Logo do app Habits">
       
       <button>
-        <img src="assets/plus.svg" alt="Ícone de sinal de mais"> Registrar o meu dia
+        <img src="assets/plus.svg" alt="Ícone de sinal de mais">
+
+
+        <!-- colocar dentro da div não muda nada visualmente, apenas ajuda a colocar o button dentro da regra css-->
+        <div> 
+          Registrar o meu dia
+        </div>
       </button>
     </header>
         
-    <form>
+    <form id="form-habits">
       <div class="habits">
-        <div class="habit">🍎</div>
-        <div class="habit">🏃‍♀️</div>
-        <div class="habit">💧</div>
-        <div class="habit">📚</div>
-        <div class="habit">🍝</div>
-        <div class="habit">🦮</div>
-        <div class="habit">🛏️</div>
+        <div class="habit" data-name="apple">🍎</div>
+        <div class="habit" data-name="run">🏃‍♀️</div>
+        <div class="habit" data-name="water">💧</div>
+        <div class="habit" data-name="books">📚</div>
+        <div class="habit" data-name="pasta">🍝</div>
+        <div class="habit" data-name="dog">🦮</div>
+        <div class="habit" data-name="bed">🛏️</div>
       </div>
    
-      <div class="days">
-        <div class="day">
-          <div>01/01</div>
-            <input type="checkbox" checked name="apple">
-            <input type="checkbox" checked name="run">
-            <input type="checkbox" name="water">
-            <input type="checkbox" name="books">
-            <input type="checkbox" name="pasta">
-            <input type="checkbox" checked name="dog">
-            <input type="checkbox" name="bed">
-          </div>
-
-        <div class="day">
-          <div>02/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" checked name="run">
-            <input type="checkbox" name="water">
-            <input type="checkbox" name="books">
-            <input type="checkbox" checked name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" checked name="bed">
-          </div>
-        
-        <div class="day">
-          <div>03/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" name="run">
-            <input type="checkbox" checked name="water">
-            <input type="checkbox" name="books">
-            <input type="checkbox" checked name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" name="bed">
-          </div>
-
-        <div class="day">
-            <div>04/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" name="run">
-            <input type="checkbox" name="water">
-            <input type="checkbox" checked name="books">
-            <input type="checkbox" name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" name="bed">
-          </div>
-
-        <div class="day">
-          <div>05/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" name="run">
-            <input type="checkbox" checked name="water">
-            <input type="checkbox" name="books">
-            <input type="checkbox" checked name="pasta">
-            <input type="checkbox" checked name="dog">
-            <input type="checkbox" name="bed">
-          </div>
-
-        <div class="day">
-          <div>06/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" name="run">
-            <input type="checkbox" name="water">
-            <input type="checkbox" name="books">
-            <input type="checkbox" name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" name="bed">
-          </div>
-
-        <div class="day">
-          <div>07/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" name="run">
-            <input type="checkbox" checked name="water">
-            <input type="checkbox" checked name="books">
-            <input type="checkbox" name="pasta">
-            <input type="checkbox" checked name="dog">
-            <input type="checkbox" name="bed">
-          </div>
-
-        <div class="day">
-          <div>08/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" checked name="run">
-            <input type="checkbox" name="water">
-            <input type="checkbox" checked name="books">
-            <input type="checkbox" checked name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" name="bed">
-          </div>
-
-        <div class="day">
-          <div>09/01</div>
-            <input type="checkbox" checked name="apple">
-            <input type="checkbox" name="run">
-            <input type="checkbox" name="water">
-            <input type="checkbox" checked name="books">
-            <input type="checkbox" checked name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" checked name="bed">
-          </div>
-
-        <div class="day">
-          <div>10/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" checked name="run">
-            <input type="checkbox" name="water">
-            <input type="checkbox" name="books">
-            <input type="checkbox" checked name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" name="bed">
-          </div>
-
-        <div class="day">
-          <div>11/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" checked name="run">
-            <input type="checkbox" checked name="water">
-            <input type="checkbox" name="books">
-            <input type="checkbox" name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" checked name="bed">
-          </div>
-
-        <div class="day">
-          <div>12/01</div>
-            <input type="checkbox" checked name="apple">
-            <input type="checkbox" checked name="run">
-            <input type="checkbox" checked name="water">
-            <input type="checkbox" name="books">
-            <input type="checkbox" name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" checked name="bed">
-          </div>
-
-        <div class="day">
-          <div>13/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" checked name="run">
-            <input type="checkbox" name="water">
-            <input type="checkbox" checked name="books">
-            <input type="checkbox" checked name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" name="bed">
-          </div>
-
-        <div class="day">
-          <div>14/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" checked name="run">
-            <input type="checkbox" name="water">
-            <input type="checkbox" name="books">
-            <input type="checkbox" name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" checked name="bed">
-          </div>
-
-        <div class="day">
-          <div>15/01</div>
-            <input type="checkbox" name="apple">
-            <input type="checkbox" name="run"> 
-            <input type="checkbox" name="water">
-            <input type="checkbox" checked name="books">
-            <input type="checkbox" checked name="pasta">
-            <input type="checkbox" name="dog">
-            <input type="checkbox" name="bed">
-        </div>
-      </div>   
+      <div class="days"></div>   
     </form>
 
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
     <script src="script.js"></script>
 
   </body>
