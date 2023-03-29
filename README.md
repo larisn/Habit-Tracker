@@ -1,5 +1,5 @@
 <h1 align="center">
-  <br> 🟪 Habit Tracker ⬛️
+  <br> 🟪⬛️ <br> Habit Tracker 
 </h1>
 
 ![Preview](https://github.com/larisn/habit-tracker/blob/main/assets/Screenshot_1.png)
